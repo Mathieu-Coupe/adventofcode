@@ -1,9 +1,6 @@
 #!/usr/bin/python
 
 import sys
-import numpy
-from parse import compile
-from collections import defaultdict
 
 with open("input") as f:
     content = f.read().replace('\n','').split(' ')
